@@ -78,7 +78,10 @@ $config = [
     ],
     "modules" => [
         "admin" => [
-            "class" => "mdm\admin\Module",
+            "class" => 'mdm\admin\Module',
+        ],
+        'v1' => [
+            'class' => 'app\modules\v1\Module',
         ],
     ],
     "aliases" => [
